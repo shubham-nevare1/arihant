@@ -103,7 +103,7 @@ const LearnExpert = ({ data }) => {
           {/* Card 2 */}
           <div
             ref={(el) => (leftCardsRef.current[1] = el)}
-            className="bg-gradient-to-br from-[#CFE66F] via-[#f7ffc2] to-[#CFE66F] p-6 rounded-2xl flex flex-col justify-between p-6 md:p-3 lg:p-6
+            className="bg-gradient-to-br from-[#CFE66F] via-[#f7ffc2] to-[#CFE66F]  rounded-2xl flex flex-col justify-between p-6 md:p-3 lg:p-6
             w-full md:w-[38%] lg:w-[37%] xl:w-[32%] h-[220px] md:h-[300px] lg:h-[300px]
             hover:shadow-lg shadow-[#CFE66F] transition-shadow duration-300 ease-in-out"
           >
@@ -128,7 +128,7 @@ const LearnExpert = ({ data }) => {
           {/* Card 3 */}
           <div
             ref={(el) => (leftCardsRef.current[2] = el)}
-            className="bg-gradient-to-br from-[#CFE66F] via-[#f7ffc2] to-[#CFE66F] p-6 rounded-2xl flex flex-col justify-between  p-6 md:p-3 lg:p-6
+            className="bg-gradient-to-br from-[#CFE66F] via-[#f7ffc2] to-[#CFE66F] rounded-2xl flex flex-col justify-between  p-6 md:p-3 lg:p-6
             w-full md:w-[38%] lg:w-[37%] xl:w-[32%] h-[220px] md:h-[300px] lg:h-[300px]
             hover:shadow-lg shadow-[#CFE66F] transition-shadow duration-300 ease-in-out "
           >
@@ -152,7 +152,7 @@ const LearnExpert = ({ data }) => {
           {/* Card 4 */}
           <div
             ref={(el) => (leftCardsRef.current[3] = el)}
-            className="bg-gradient-to-br from-[#F0D4F8] via-[#FAECFF] to-[#D7A3FF] p-6 rounded-2xl flex flex-col justify-between p-6 md:p-3 lg:p-6
+            className="bg-gradient-to-br from-[#F0D4F8] via-[#FAECFF] to-[#D7A3FF] rounded-2xl flex flex-col justify-between p-6 md:p-3 lg:p-6
             w-full md:w-[55%]  xl:w-[62%] h-[220px] md:h-[300px] lg:h-[300px]
             hover:shadow-lg shadow-[#D7A3FF] transition-shadow duration-300 ease-in-out"
           >
