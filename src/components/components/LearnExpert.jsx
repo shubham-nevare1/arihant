@@ -52,7 +52,7 @@ const LearnExpert = ({ data }) => {
   const title = data?.section_seven_blogs || [];
 
   return (
-    <section className="px-4 md:px-[60px] lg:px-[100px] xl:px-[140px] py-15 ">
+    <section className="px-4 md:px-[60px] lg:px-[100px] xl:px-[140px] py-15 max-w-[1440px] mx-auto">
       {/* Header */}
       <div ref={titleRef} className="flex justify-between items-center mb-6">
         <h2 className="text-[28px] md:text-[36px] lg:text-[48px] font-bold">

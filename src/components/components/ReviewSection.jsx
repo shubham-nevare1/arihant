@@ -67,7 +67,7 @@ export default function ReviewSection({ data }) {
   }, [currentIndex]);
 
   return (
-    <section className="py-20 px-4 md:px-20 bg-white">
+    <section className="py-20 px-4 md:px-20 bg-white max-w-[1440px] mx-auto">
       <div className="relative flex flex-col items-center w-full">
         {/* Cards Container */}
         <div

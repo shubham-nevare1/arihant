@@ -37,7 +37,7 @@ const FAQ = ({ data }) => {
   return (
     <section
       ref={faqRef}
-      className="bg-gradient-to-r from-purple-50 to-pink-50 px-6 md:px-[50px] lg:px-[140px] py-16 lg:py-[120px] overflow-hidden"
+      className="bg-gradient-to-r from-purple-50 to-pink-50 px-6 md:px-[50px] lg:px-[140px] py-16 lg:py-[120px] overflow-hidden max-w-[1440px] mx-auto"
     >
       <div className="flex flex-col md:flex-row items-start md:gap-[40px]">
         {/* Left side */}

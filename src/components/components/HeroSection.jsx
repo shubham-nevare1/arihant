@@ -125,7 +125,7 @@ function HeroSection({ data }) {
   ];
 
   return (
-    <div className="bg-white z-0 relative w-full min-h-screen overflow-hidden flex flex-col lg:flex-row lg:mt-[70px]">
+    <div className="bg-white z-0 relative w-full min-h-screen overflow-hidden flex flex-col lg:flex-row lg:mt-[70px] max-w-[1440px] mx-auto">
       {/* Mobile BG Image */}
       <div className="block lg:hidden absolute left-0 md:left-[190px] right-0 bottom-0 -z-20 ">
         <Image

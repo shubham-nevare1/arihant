@@ -61,7 +61,7 @@ const DownloadBanner = ({ data, cursorRef }) => {
   return (
     <section
       ref={bannerRef}
-      className="flex flex-col items-center bg-white px-4 py-[50px] overflow-hidden relative"
+      className="flex flex-col items-center bg-white px-4 py-[50px] overflow-hidden relative max-w-[1440px] mx-auto"
     >
       {/* Banner */}
       <div className="w-full lg:max-w-[1161px] rounded-3xl flex flex-col-reverse md:flex-row items-center md:items-stretch overflow-hidden relative px-0" style={{ backgroundImage: `url(${bgdesktop})` }}>

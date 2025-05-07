@@ -5,7 +5,7 @@ import { FaTwitter, FaInstagram, FaFacebookF } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="bg-black text-white px-[30px] md:px-[140px]">
+    <footer className="bg-black text-white px-[30px] md:px-[140px] max-w-[1440px] mx-auto">
       {/* footer section 1-6 */}
       <div className="flex flex-wrap justify-between items-center py-10 gap-[25px]">
         {/* right  */}
@@ -37,7 +37,7 @@ function Footer() {
           {/* Link Columns */}
           <div className="flex flex-wrap gap-4 justify-between flex-grow">
             {/* Left Section */}
-            <div className="max-w-[200px]">
+            <div className="max-w-[200px] md:w-[150px]">
               {/* Logo */}
               <div className="mb-4">
                 <Image src="/logo.png" alt="Logo" width={150} height={40} />

@@ -91,7 +91,7 @@ function Family({ data }) {
   return (
     <div
       ref={familyRef}
-      className="w-full bg-white py-8 px-4 md:px-[20px] xl:px-[140px]"
+      className="w-full bg-white py-8 px-4 md:px-[20px] xl:px-[140px] max-w-[1440px]  mx-auto"
     >
       <h2 className="text-black text-3xl md:text-[48px] font-[700] text-left md:text-center mb-12">
         {family?.section_title}
