@@ -9,7 +9,7 @@ function Header() {
 
   return (
     <>
-      <nav className="bg-white/80 fixed w-full top-0 z-50 flex justify-between items-center h-[70px] md:h-[90px] px-4 xl:px-24 backdrop-blur">
+      <nav className="bg-white/80 fixed w-full top-0 z-50 flex justify-between items-center h-[70px] md:h-[50px] lg:h-[90px] px-4 xl:px-24 backdrop-blur">
         {/* Logo */}
         <Link href="/">
           <div className="flex items-center cursor-pointer">

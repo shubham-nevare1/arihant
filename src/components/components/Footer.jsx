@@ -35,9 +35,9 @@ function Footer() {
       <div className="border-t border-gray-700">
         <div className="flex flex-wrap justify-between gap-10 pt-[60px]">
           {/* Link Columns */}
-          <div className="flex flex-wrap gap-10 justify-between flex-grow">
+          <div className="flex flex-wrap gap-4 justify-between flex-grow">
             {/* Left Section */}
-            <div className="max-w-[250px]">
+            <div className="max-w-[200px]">
               {/* Logo */}
               <div className="mb-4">
                 <Image src="/logo.png" alt="Logo" width={150} height={40} />
